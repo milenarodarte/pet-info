@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/globalStyles.css">
+    <link rel="stylesheet" href="/pages/login/index.css">
+    <script defer src="/scripts/paginas.js"></script>
+    <script defer src="/scripts/api.js"></script>
+    <script defer type="module" src="/pages/login/index.js"></script>
+    
+    
+    <title>Petinfo - Login</title>
+</head>
+<body >
+    <div class="container-login"> 
+
+        <div class="lado-esquerdo-login">
+            <div class="caixa-login-1">
+                <h2 class="h2-petInfo">Petinfo</h2>
+                <h2 class="amor-e-carinho"> <pre class="azul">Amor </pre> e  <pre class="azul"> carinho </pre> <pre class="pre-p">por</pre> meio do conhecimento</h2>
+                <p class="p-texto">Todas as informações para melhorar a vida do seu pet em um só lugar</p>
+                <div class="fotos-lado-direito">
+                    
+                    <div class="gato-foto">
+                        <div class="div-gato-foto">
+                            <img src="/src/gato7.svg" class="gato">
+                            <img src="/src/gato8.svg" class="gato">
+                        </div>
+                        <img class="gato-2" src="/src/gato6.svg">
+                    </div>
+                    <img src="/src/gato5.svg" alt="foto de gato">
+                </div>
+            </div>
+        </div>
+        <div class="lado-direito-login">
+            <div class="caixa-login-2">
+                <div class="cadastro">
+                    <h2 class="h1-cadastro">Login</h2>
+                    
+                </div>
+                <form class="form-cadastro">
+                    
+                    <label for="email-cadastro" class="label">Email</label>
+                    <input class="input" type="email" placeholder="Digite seu email aqui" id="email-cadastro">
+                
+                    <label for="senha-input" class="label">Senha</label>
+                    <input class="input-password" type="password" placeholder="Digite sua senha aqui" id="senha-input">
+                    <p class="senha-incorreta-none">A senha está incorreta</p>
+                    <button class="botao-cadastrar" type="button" id="acessar">Acessar</button>
+                </form>
+                <div class="texto-cadastrar">
+                    <p class="p-cadastrar">Ainda não possui conta?</p>
+                    <p class="p-texto-cadastrar">Clicando no botão abaixo, você pode se cadastrar rapidamente</p>
+                </div>
+                <button class="botao-voltar" type="button" id="cadastrar-usuario">Cadastrar</button>
+            </div>
+                
+        </div>
+        
+        
+    </div>
+    
+
+
+    <!-- <div class="container-cadastrar">
+        <div class="lado-esquerdo">
+            <div class="caixa-1">
+                <div class="cadastro">
+                    <h2 class="h1-cadastro">Cadastro</h2>
+                    <button class="voltar-para-login">Voltar para o login</button>
+                </div>
+                <form class="form-cadastro">
+                    <label for="usuario" class="label">Usuário</label>
+                    <input required class="input" type="text" placeholder="Digite seu usuário aqui" id="usuario">
+    
+                    <label for="email" class="label">Email</label>
+                    <input required class="input" type="email" placeholder="Digite seu email aqui" id="email">
+    
+                    <label for="foto" class="label">Link da foto do perfil</label>
+                    <input required class="input" type="url" placeholder="Insira o link aqui" id="foto">
+    
+                    <label for="senha" class="label">Senha</label>
+                    <input required class="input" type="password" placeholder="Digite sua senha aqui" id="senha">
+    
+                    <button class="botao-cadastrar" type="button" id="cadastrar">Cadastrar</button>
+                </form>
+                <button class="botao-voltar" type="button" id="voltar-login">Voltar para o login</button>
+            </div>
+            
+        </div>
+        <div class="lado-direito">
+            <div class="caixa-2">
+                <h2 class="h2-petInfo">Petinfo</h2>
+                <h2 class="oba">Oooooooba!</h2>
+                <p class="p-texto">Agora vamos poder contribuir para o bem estar do seu pet por meio do conhecimento</p>
+                <div class="fotos-lado-direito">
+                    <img src="/src/gato1.svg" alt="foto de gato">
+                    <div class="gato-foto">
+                        <div class="div-gato-foto">
+                            <img src="/src/gato2.svg" class="gato">
+                            <img src="/src/gato3.svg" class="gato">
+                        </div>
+                        <img class="gato-2" src="/src/gato4.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="toast">
+                <div class="toast-conta-criada">
+                    <img src="/src/toast.svg" class="toast-verde">
+                    <p class="p-toast">Sua conta foi criada com sucesso!</p>
+                </div>
+                <p class="toast-mensagem">Agora você pode acessar os conteúdos utilizando seu usuário e senha na página de login:<button type="button" class="acessar-pagina">Acessar página de login</button> </p>
+
+            </div>
+        </div>
+    </div> -->
+
+    <!--  <div class="container-feed">
+        <div class="quadrado-sair-da-conta">
+            <p class="usuario-sair-da-conta">@usuario</p>
+           <div class="div-sair">
+                <img class="img-sair" src="/src/sair.svg">
+                <p class="sair-da-conta">Sair da conta</p>
+           </div>
+        </div>
+       
+        <header class="header">
+                <h1 class="logo">Petinfo</h1>
+                <div class="div-header">
+                    <button class="botao-header">Criar publicação</button>
+                    <img class="img-foto" src="/src/gato3.svg">
+                </div>
+        </header>
+        <div class="div-feed"><h2 class="feed">Feed</h2></div>
+    
+        
+        <ul class="ul-container-feed-2">
+            <li class="li">
+
+               <div class="div-li-header">
+                    <div class="div-detalhes">
+                        <img src="/src/gato3.svg" class="img-div">
+                        <p class="p-div-nome">nome</p>
+                        <p class="p-div-mes-ano">data</p>
+                    </div>
+                    <div class="botoes-header">
+                        <button class="botao-header-editar" id="editar">Editar</button>
+                        <button class="botao-header-excluir" id="excluir">Excluir</button>
+                    </div>
+               </div>
+               <h2 class="titulo-li">titulo</h2>
+               <p class="descricao-li">postagem</p>
+               <button type="button" class="botao-acessar-publicacao">Acessar publicação</button>
+            
+            </li>
+        </ul>
+        <div class="toast">
+            <div class="toast-conta-criada">
+                <img src="/src/toast.svg" class="toast-verde">
+                <p class="p-toast">Post deletado com sucesso!</p>
+            </div>
+            <p class="toast-mensagem">O post selecionado para exlusão foi deletado, a partir de agora não aparecerá no seu feed </p>
+
+        </div>
+    </div> -->
+
+    <!-- <div class="modal-ver-mais">
+        
+        <div class="box-modal">
+            <button class="close">X</button>
+            <div class="header-modal">
+                <img class="img-div-modal" src="/src/gato2.svg">
+                <p class="p-div-modal"> nome</p>
+                <p class="p-div-modal-data"> data</p>
+            </div>
+            <h2 class="titulo-modal">título</h2>
+            <p class="publicacao-modal">texto</p>
+        </div>
+       
+    </div> -->
+ <!--    <div class="modal-edicao">
+        <div class="box-modal">
+            <h2 class="titulo-edicao" >Edição</h2>
+            <button class="close">X</button>
+
+            <label class="label-edicao" for="titulo-input">Título do post</label>
+            <input class="input-titulo" type="text" id="titulo-input">
+
+            <label class="label-edicao" for="conteudo-label">Conteúdo do post</label>
+            <input class="input-edicao" type="text" id="conteudo-label">
+
+            <div class="botao-modal">
+                <button class="botao-cancelar">Cancelar</button>
+                <button class="botao-salvar-alteracoes">Salvar alterações</button>
+            </div>
+        </div>
+        
+    </div> -->
+   <!--  <div class="modal-novo-post">
+        <div class="box-modal">
+            <h2 class="titulo-edicao" >Criando novo post</h2>
+            <button class="close">X</button>
+
+            <label class="label-edicao" for="titulo">Título do post</label>
+            <input class="input-titulo" type="text" id="titulo">
+
+            <label class="label-edicao" for="conteudo">Conteúdo do post</label>
+            <input class="input-edicao" type="text" id="conteudo">
+
+            <div class="botao-modal">
+                <button class="botao-cancelar">Cancelar</button>
+                <button class="botao-salvar-alteracoes">Salvar alterações</button>
+            </div>
+        </div>
+        
+    </div> -->
+    <!-- <div class="modal-exclusao">
+        <div class="box-modal">
+             <h2 class="titulo-exclusao">Confirmação de exclusão</h2>
+             <button type="button" class="close">X</button>
+     
+             <h2 class="h2-confirmacao">Tem certeza que deseja excluir esse post?</h2>
+             <p class="p-aviso">Essa ação não poderá ser desfeita, então pedimos que tenha cautela antes de concluir</p>
+             
+             <div class="botoes-modal-excluir">
+                 <button class="botao-cancelar" type="button">Cancelar</button>
+                 <button class="excluir-post" type="button">Sim, excluir post</button>
+             </div>
+        </dvi>
+    </div> -->
+    
+   
+</body>
+</html>

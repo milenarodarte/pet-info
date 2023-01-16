@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Mouse+Memoirs&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-1: hsl(230, 57%, 50%);
+  --brand-2: hsl(230, 68%, 54%);
+  --grey-1: hsl(210, 11%, 15%);
+  --grey-2: hsl(210, 10%, 23%);
+  --grey-3: hsl(210, 9%, 31%);
+  --grey-4: hsl(210, 7%, 56%);
+  --grey-5: hsl(210, 11%, 71%);
+  --grey-6: hsl(210, 16%, 93%);
+  --grey-7: hsl(210, 17%, 95%);
+  --grey-8: hsl(210, 17%, 98%);
+  --grey-9: hsl(200, 100%, 99%);
+  --alert-1: hsl(349, 57%, 50%);
+  --alert-2: hsl(349, 69%, 55%);
+  --sucess-1: hsl(162, 88%, 26%);
+
+  --font-1: 2rem;
+  --font-2: 1.25rem;
+  --font-3: 1rem;
+  --font-4: 0.875rem;
+
+  --line-height-1: 1.5rem;
+  --line-height-2: 1.875rem;
+  --line-height-3: 3rem;
+
+}
+
+body {
+  position: relative;
+  font-family: Inter, sans-serif;
+}
